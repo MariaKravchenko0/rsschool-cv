@@ -11,6 +11,14 @@ Hardworking, self-motivated, and responsible, I am an individual with a keen int
 
 My ultimate goal is to persist in my professional and self-development, which is why I aspire to gain new and exciting experiences in the IT industry.
 
+## Skills
+* JavaScript
+* TypeScript
+* HTML5, CSS3
+* Git, GitHub
+* REST API Basics
+* Figma Basics
+
 ## Code example
 #### Codewars [Binary Coded Decimal](https://www.codewars.com/kata/5521d84b95c172461d0000a4):
 ```
@@ -32,3 +40,7 @@ function toBcd(number){
 * _[Image Gallery](https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/image-galery/)_
 * _[Shelter](https://mariakravchenko0-shelter.netlify.app/)_
 * _[Virtual Keyboard](https://mariakravchenko0.github.io/virtual-keyboard/)_
+
+## Languages
+* Russian, Ukrainian – native
+* English – C1
