@@ -19,6 +19,17 @@ My ultimate goal is to persist in my professional and self-development, which is
 * REST API Basics
 * Figma Basics
 
+## EDUCATION
+#### **Donetsk National University, Faculty of Foreign Languages**
+
+- **Bachelor of Linguistics and Teaching**\
+  2017 – 2021
+
+### Courses:
+- The Modern JavaScript Tutorial on [javascript.info](https://javascript.info/)
+- The Rolling Scopes School Course ["JavaScript/Front-end. Stage 0"](https://rs.school/js-stage0/)
+- The Rolling Scopes School Course ["JavaScript/Front-end (EN)"](https://rs.school/js-en/) _(in progress)_
+
 ## Code example
 #### Codewars [Binary Coded Decimal](https://www.codewars.com/kata/5521d84b95c172461d0000a4):
 ```
