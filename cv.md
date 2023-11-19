@@ -11,10 +11,8 @@ Hardworking, self-motivated, and responsible, I am an individual with a keen int
 
 My ultimate goal is to persist in my professional and self-development, which is why I aspire to gain new and exciting experiences in the IT industry.
 
-## Code examples
-
+## Code example
 #### Codewars [Binary Coded Decimal](https://www.codewars.com/kata/5521d84b95c172461d0000a4):
-
 ```
 function toBcd(number){
  let binaryNumber = Math.abs(number)
@@ -26,7 +24,10 @@ function toBcd(number){
   return number < 0 ? "-" + binaryNumber : binaryNumber;
 }
 ```
-#### My Projects:
+## Experience
+[Codewars (4 kyu)](https://www.codewars.com/users/MariaKravchenko0)
+
+### My Projects:
 * _[Memory Game](https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/memory-game/)_
 * _[Image Gallery](https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/image-galery/)_
 * _[Shelter](https://mariakravchenko0-shelter.netlify.app/)_
