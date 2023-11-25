@@ -1,6 +1,6 @@
 :root {
 	--light-color: #f6f5f4;
-	--light-accent-color: #c5d0c2;
+	--light-accent-color: #c6d0c2;
 	--hover-color: #998888;
 	--bright-text-color: #1f4012;
 	--dark-text-color: #402d1c;
@@ -150,6 +150,65 @@ h3 {
 .code {
 	display: block;
 	overflow-x: auto;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.project {
+	position: relative;
+	width: 348px;
+	height: 232px;
+	margin: 0 10px 25px;
+	text-align: center;
+}
+
+.project-link,
+.project-link:hover {
+	color: var(--bright-text-color);
+}
+
+.project-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.memory-game {
+	background-image: url("assets/img/memory-game.png");
+}
+
+.image-gallery {
+	background-image: url("assets/img/image-gallery.png");
+}
+
+.shelter {
+	background-image: url("assets/img/shelter.png");
+}
+
+.virtual-keyboard {
+	background-image: url("assets/img/virtual-keyboard.png");
+}
+
+.project-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgb(198, 208, 194, 0.7);
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.project-overlay:hover {
+	opacity: 1;
 }
 
 .container-footer {
