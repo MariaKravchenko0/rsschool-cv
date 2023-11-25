@@ -1,10 +1,223 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
-  </head>
-  <body></body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>CV</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="assets/favicon.ico"
+			type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav>
+					<ul>
+						<li>
+							<a href="#contacts">Contacts</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#skills">Skills</a>
+						</li>
+						<li>
+							<a href="#languages">Languages</a>
+						</li>
+						<li>
+							<a href="#education">Education</a>
+						</li>
+						<li>
+							<a href="#code">Code</a>
+						</li>
+						<li>
+							<a href="#projects">Projects</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<section>
+					<h1>Mariia Kravchenko</h1>
+				</section>
+				<section id="about">
+					<h2>About me</h2>
+					<div>
+						<p>
+							Hardworking, self-motivated, and responsible, I am an individual
+							with a keen interest in frontend development. I am passionate
+							about learning new things and ready to tackle any challenges that
+							come my way. As a lifelong learner, I am committed to enhancing my
+							skills as a frontend developer and expanding into entirely new
+							spheres.
+						</p>
+						<p>
+							My ultimate goal is to persist in my professional and
+							self-development, which is why I aspire to gain new and exciting
+							experiences in the IT industry.
+						</p>
+					</div>
+				</section>
+				<section id="contacts">
+					<h2>Contact information</h2>
+					<ul>
+						<li>Sofia, Bulgaria</li>
+						<li>
+							<a
+								href="mailto:kravchenkomaria00@gmail.com"
+								target="_blank"
+								>kravchenkomaria00@gmail.com</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://t.me/mariakravchenko0"
+								target="_blank"
+								>mariakravchenko0</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://discordapp.com/users/905724347069653022"
+								target="_blank"
+								>mariakravchenko0</a
+							>
+						</li>
+					</ul>
+				</section>
+				<section id="skills">
+					<h2>Skills</h2>
+					<ul>
+						<li>JavaScript</li>
+						<li>TypeScript</li>
+						<li>HTML5, CSS3</li>
+						<li>Git, GitHub</li>
+						<li>REST API Basics</li>
+						<li>Figma Basics</li>
+					</ul>
+				</section>
+				<section id="languages">
+					<h2>Languages</h2>
+					<ul>
+						<li>Russian, Ukrainian - native</li>
+						<li>English - C2</li>
+					</ul>
+				</section>
+				<section id="education">
+					<h2>Education</h2>
+					<h3>Donetsk National University, Faculty of Foreign Languages</h3>
+					<ul>
+						<li>
+							Bachelor of Linguistics and Teaching <br /><span
+								>2017 - 2021</span
+							>
+						</li>
+					</ul>
+					<h3>Courses</h3>
+					<ul>
+						<li>
+							The Rolling Scopes School Course
+							<a
+								href="https://rs.school/js-stage0/"
+								target="_blank"
+								>"JavaScript/Front-end. Stage 0"</a
+							>
+							<br /><span>2022</span>
+						</li>
+						<li>
+							The Rolling Scopes School Course
+							<a
+								href="https://rs.school/js-en/"
+								target="_blank"
+								>"JavaScript/Front-end (EN)"</a
+							>
+							<br /><span>(in progress)</span>
+						</li>
+						<li>
+							The Modern JavaScript Tutorial on
+							<a
+								href="https://javascript.info/"
+								target="_blank"
+								>javascript.info</a
+							>
+							<br /><span>(in progress)</span>
+						</li>
+					</ul>
+				</section>
+				<section id="code">
+					<pre>
+					<code>
+					function toBcd(number){
+						let binaryNumber = Math.abs(number)
+						   .toString()
+						   .split("")
+						   .map((n) => (n === "-" ? "-" : parseInt(n).toString(2).padStart(4, "0")))
+						   .join(" ");
+					   
+						 return number &lt 0 ? "-" + binaryNumber : binaryNumber;
+					   }
+					</code>
+				</pre>
+				</section>
+				<section id="projects">
+					<ul>
+						<li>
+							<a
+								href="https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/memory-game/"
+								target="_blank"
+								>Memory Game</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/image-galery/"
+								>Image Gallery</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://mariakravchenko0-shelter.netlify.app/"
+								target="_blank"
+								>Shelter</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://mariakravchenko0.github.io/virtual-keyboard/"
+								target="_blank"
+								>Virtual Keyboard</a
+							>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<div>
+					<a
+						href="http://github.com/mariakravchenko0"
+						target="_blank"
+						>GitHub</a
+					>
+				</div>
+				<div><span>©2023</span></div>
+				<div>
+					<a
+						href="https://rs.school/js-en/"
+						target="_blank"
+						>RS School</a
+					>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
