@@ -88,13 +88,14 @@ li {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 20 0;
+	padding: 20px 0;
 }
 
 .section_main {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
+	padding: 40px 0;
 }
 
 .heading_main {
@@ -236,4 +237,51 @@ h3 {
 .github:hover,
 .rsschool:hover {
 	fill: var(--hover-color);
+}
+
+@media (max-width: 768px) {
+	.nav__list {
+		flex-direction: column;
+	}
+
+	.section_main {
+		flex-direction: column-reverse;
+	}
+
+	.contacts-list,
+	.contacts-sublist {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.subheader,
+	.education-list {
+		width: 100%;
+	}
+}
+
+@media (max-width: 425px) {
+	body {
+		font-size: 80%;
+		letter-spacing: 1px;
+	}
+
+	.container {
+		padding: 0 10px;
+	}
+
+	.heading_main {
+		font-size: 24px;
+	}
+
+	.skills-list {
+		flex-direction: column;
+	}
+
+	.project {
+		width: 295px;
+		height: 197px;
+		margin: 0 0 10px;
+	}
 }
