@@ -1,6 +1,7 @@
 :root {
 	--light-color: #f6f5f4;
 	--light-accent-color: #c5d0c2;
+	--hover-color: #998888;
 	--bright-text-color: #1f4012;
 	--dark-text-color: #402d1c;
 }
@@ -34,7 +35,7 @@ a {
 }
 
 a:hover {
-	color: var(--bright-text-color);
+	color: var(--hover-color);
 }
 
 li {
@@ -86,4 +87,31 @@ li {
 	display: block;
 	overflow-x: auto;
 	font-size: 14px;
+}
+
+.container-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 90px;
+}
+
+.github {
+	width: 50px;
+	height: 50px;
+	fill: var(--bright-text-color);
+	transition: 0.5s;
+}
+
+.rsschool {
+	width: 100px;
+	height: 37px;
+	fill: var(--bright-text-color);
+	transition: 0.5s;
+}
+
+.github:hover,
+.rsschool:hover {
+	fill: var(--hover-color);
 }
