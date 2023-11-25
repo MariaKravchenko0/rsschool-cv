@@ -1,3 +1,10 @@
+:root {
+	--light-color: #f9f7f7;
+	--light-accent-color: #b3e4a0;
+	--dark-accent-color: #1f4012;
+	--dark-text-color: #595959;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -8,7 +15,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-  justify-content: space-between;
+	justify-content: space-between;
+	background-color: var(--light-color);
+	font: 500 18px "Montserrat", sans-serif;
+	letter-spacing: 2px;
+	line-height: 2;
+	color: var(--dark-text-color);
 }
 
 .container {
@@ -17,4 +29,25 @@ body {
 	max-width: 1140px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+.header,
+.footer {
+	background-color: var(--dark-accent-color);
+	color: var(--light-color);
+}
+
+.heading {
+	color: var(--dark-accent-color);
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	transition: color 0.5s;
+	color: inherit;
+}
+
+a:hover {
+	color: var(--light-accent-color);
 }
