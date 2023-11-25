@@ -20,7 +20,7 @@
 			href="https://fonts.gstatic.com"
 			crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
 			rel="stylesheet" />
 		<script
 			src="https://kit.fontawesome.com/67d45a7642.js"
@@ -58,10 +58,10 @@
 		</header>
 		<main>
 			<div class="container">
-				<section class="section section-main">
-					<div class="section-main_info">
-						<h1 class="heading heading-main">Mariia Kravchenko</h1>
-						<span>Junior Front-end Developer</span>
+				<section class="section section_main">
+					<div class="section_main_info">
+						<h1 class="heading heading_main">Mariia Kravchenko</h1>
+						<span class="occupation">Junior Front-end Developer</span>
 					</div>
 					<img
 						src="/assets/photo.jpg"
@@ -71,9 +71,49 @@
 						class="photo" />
 				</section>
 				<section
+					id="contacts"
+					class="section">
+					<ul class="contacts-list">
+						<li>
+							<ul class="contacts-sublist">
+								<li>
+									<i class="fa-solid fa-location-dot"></i> Sofia, Bulgaria
+								</li>
+								<li>
+									<a
+										href="mailto:kravchenkomaria00@gmail.com"
+										target="_blank"
+										><i class="fa-solid fa-envelope"></i>
+										kravchenkomaria00@gmail.com</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="contacts-sublist">
+								<li>
+									<a
+										href="https://t.me/mariakravchenko0"
+										target="_blank"
+										><i class="fa-brands fa-telegram"></i> mariakravchenko0</a
+									>
+								</li>
+
+								<li>
+									<a
+										href="https://discordapp.com/users/905724347069653022"
+										target="_blank"
+										><i class="fa-brands fa-discord"></i> mariakravchenko0</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section
 					id="about"
 					class="section">
-					<h2 class="heading">About me</h2>
+					<h2 class="heading heading_section">About me</h2>
 					<div>
 						<p>
 							Hardworking, self-motivated, and responsible, I am an individual
@@ -91,113 +131,95 @@
 					</div>
 				</section>
 				<section
-					id="contacts"
-					class="section">
-					<h2 class="heading">Contact information</h2>
-					<ul>
-						<li><i class="fa-solid fa-location-dot"></i> Sofia, Bulgaria</li>
-						<li>
-							<a
-								href="mailto:kravchenkomaria00@gmail.com"
-								target="_blank"
-								><i class="fa-solid fa-envelope"></i>
-								kravchenkomaria00@gmail.com</a
-							>
-						</li>
-						<li>
-							<a
-								href="https://t.me/mariakravchenko0"
-								target="_blank"
-								><i class="fa-brands fa-telegram"></i> mariakravchenko0</a
-							>
-						</li>
-						<li>
-							<a
-								href="https://discordapp.com/users/905724347069653022"
-								target="_blank"
-								><i class="fa-brands fa-discord"></i> mariakravchenko0</a
-							>
-						</li>
-					</ul>
-				</section>
-				<section
 					id="skills"
 					class="section">
-					<h2 class="heading">Skills</h2>
-					<ul>
-						<li>JavaScript</li>
-						<li>TypeScript</li>
-						<li>HTML5, CSS3</li>
-						<li>Git, GitHub</li>
-						<li>REST API Basics</li>
-						<li>Figma Basics</li>
+					<h2 class="heading heading_section">Skills</h2>
+					<ul class="skills-list">
+						<li>
+							<ul class="skills-sublist">
+								<li class="skills-sublist__item">JavaScript</li>
+								<li class="skills-sublist__item">TypeScript</li>
+								<li class="skills-sublist__item">HTML5, CSS3</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="skills-sublist">
+								<li class="skills-sublist__item">Git, GitHub</li>
+								<li class="skills-sublist__item">REST API Basics</li>
+								<li class="skills-sublist__item">Figma Basics</li>
+							</ul>
+						</li>
 					</ul>
 				</section>
 				<section
 					id="languages"
-					class="section">
-					<h2 class="heading">Languages</h2>
-					<ul>
-						<li>Russian, Ukrainian – native</li>
-						<li>English – C2</li>
+					class="section section_languages">
+					<h2 class="heading heading_section">Languages</h2>
+					<ul class="languages-list">
+						<li class="languages-list__item">English – C1</li>
+						<li class="languages-list__item">Russian – native</li>
+						<li class="languages-list__item">Ukrainian – native</li>
 					</ul>
 				</section>
 				<section
 					id="education"
-					class="section">
-					<h2 class="heading">Education</h2>
-					<h3>Donetsk National University, Faculty of Foreign Languages</h3>
-					<ul>
-						<li>
+					class="section section_education">
+					<h2 class="heading heading_section">Education</h2>
+					<h3 class="subheader">
+						Donetsk National University, Faculty of Foreign Languages
+					</h3>
+					<ul class="education-list">
+						<li class="education-list__item">
 							Bachelor of Linguistics and Teaching <br /><span
+								class="time-period"
 								>2017 - 2021</span
 							>
 						</li>
 					</ul>
-					<h3>Courses</h3>
-					<ul>
-						<li>
+					<h3 class="subheader">Courses</h3>
+					<ul class="education-list">
+						<li class="education-list__item">
 							The Rolling Scopes School Course
 							<a
 								href="https://rs.school/js-stage0/"
 								target="_blank"
 								>"JavaScript/Front-end. Stage 0"</a
 							>
-							<br /><span>2022</span>
+							<br /><span class="time-period">2022</span>
 						</li>
-						<li>
+						<li class="education-list__item">
 							The Rolling Scopes School Course
 							<a
 								href="https://rs.school/js-en/"
 								target="_blank"
 								>"JavaScript/Front-end (EN)"</a
 							>
-							<br /><span>(in progress)</span>
+							<br /><span class="time-period">(in progress)</span>
 						</li>
-						<li>
+						<li class="education-list__item">
 							The Modern JavaScript Tutorial on
 							<a
 								href="https://javascript.info/"
 								target="_blank"
 								>javascript.info</a
 							>
-							<br /><span>(in progress)</span>
+							<br /><span class="time-period">(in progress)</span>
 						</li>
 					</ul>
 				</section>
 				<section
 					id="code"
 					class="section">
-					<h2 class="heading">Code example</h2>
-					<h4>
+					<h2 class="heading heading_section">Code example</h2>
+					<h3>
+						Codewars
 						<a
 							href="https://www.codewars.com/kata/5521d84b95c172461d0000a4"
 							target="_blank"
-							>Binary Coded Decimal:</a
-						>
-					</h4>
-					<pre class="code">
-						<code>
+							>"Binary Coded Decimal"</a
+						>:
+					</h3>
+					<pre class="code"><code>
 function toBcd(number){
 	let binaryNumber = Math.abs(number)
 	   .toString()
@@ -207,13 +229,12 @@ function toBcd(number){
    
 	return number &lt 0 ? "-" + binaryNumber : binaryNumber;
 }
-						</code>
-					</pre>
+						</code></pre>
 				</section>
 				<section
 					id="projects"
 					class="section">
-					<h2 class="heading">Projects</h2>
+					<h2 class="heading heading_section">Projects</h2>
 					<ul>
 						<li>
 							<a

@@ -58,6 +58,7 @@ li {
 }
 
 .heading {
+	text-align: center;
 	color: var(--dark-accent-color);
 	font-weight: 700;
 }
@@ -76,7 +77,7 @@ li {
 
 .nav__list {
 	display: flex;
-	gap: 20px;
+	gap: 16px;
 }
 
 .nav__list__item {
@@ -87,22 +88,21 @@ li {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-  margin: 0 auto;
 	padding: 20 0;
 }
 
-.section-main {
+.section_main {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
 }
 
-.heading-main {
-	font-size: 32px;
+.heading_main {
+	font-size: 36px;
 	border-bottom: 4px solid var(--light-accent-color);
 }
 
-.section-main_info {
+.section_main_info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -112,10 +112,44 @@ li {
 	border-radius: 50%;
 }
 
+.contacts-list,
+.skills-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.section_languages,
+.section_education {
+	align-items: center;
+}
+
+.skills-sublist__item,
+.languages-list__item {
+	text-align: center;
+}
+
+.subheader,
+.education-list {
+	width: 70%;
+}
+
+.education-list__item {
+	list-style: square;
+	margin-left: 20px;
+}
+
+.occupation,
+.time-period {
+	color: var(--hover-color);
+}
+
+h3 {
+	font-weight: 600;
+}
+
 .code {
 	display: block;
 	overflow-x: auto;
-	font-size: 14px;
 }
 
 .container-footer {
