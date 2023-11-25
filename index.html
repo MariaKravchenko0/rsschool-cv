@@ -176,21 +176,22 @@
 							>Binary Coded Decimal:</a
 						>
 					</h4>
-					<pre>
-					<code>
-					function toBcd(number){
-						let binaryNumber = Math.abs(number)
-						   .toString()
-						   .split("")
-						   .map((n) => (n === "-" ? "-" : parseInt(n).toString(2).padStart(4, "0")))
-						   .join(" ");
-					   
-						 return number &lt 0 ? "-" + binaryNumber : binaryNumber;
-					   }
-					</code>
+					<pre class="code">
+						<code>
+function toBcd(number){
+	let binaryNumber = Math.abs(number)
+	   .toString()
+	   .split("")
+	   .map((n) => (n === "-" ? "-" : parseInt(n).toString(2).padStart(4, "0")))
+	   .join(" ");
+   
+	return number &lt 0 ? "-" + binaryNumber : binaryNumber;
+}
+						</code>
 					</pre>
 				</section>
 				<section id="projects">
+					<h2 class="heading">Projects</h2>
 					<ul>
 						<li>
 							<a
