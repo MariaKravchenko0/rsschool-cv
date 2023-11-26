@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -70,7 +71,7 @@
 						height="225"
 						class="photo" />
 				</section>
-				<section
+				<div
 					id="contacts"
 					class="section">
 					<ul class="contacts-list">
@@ -109,7 +110,7 @@
 							</ul>
 						</li>
 					</ul>
-				</section>
+				</div>
 				<section
 					id="about"
 					class="section">
@@ -227,7 +228,7 @@ function toBcd(number){
 	   .map((n) => (n === "-" ? "-" : parseInt(n).toString(2).padStart(4, "0")))
 	   .join(" ");
    
-	return number &lt 0 ? "-" + binaryNumber : binaryNumber;
+	return number &lt; 0 ? "-" + binaryNumber : binaryNumber;
 }
 						</code></pre>
 				</section>
