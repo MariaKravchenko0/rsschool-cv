@@ -1,0 +1,57 @@
+# Mariia Kravchenko
+
+## Contact Information
+_**Location:** Sofia, Bulgaria_\
+_**E-mail:** [kravchenkomaria00@gmail.com](mailto:kravchenkomaria00@gmail.com)_\
+_**Telegram:** [mariakravchenko0](https://t.me/mariakravchenko0)_\
+_**Discord:** Mariia (@mariakravchenko0)_
+
+## About me
+Hardworking, self-motivated, and responsible, I am an individual with a keen interest in frontend development. I am passionate about learning new things and ready to tackle any challenges that come my way. As a lifelong learner, I am committed to enhancing my skills as a frontend developer and expanding into entirely new spheres.
+
+My ultimate goal is to persist in my professional and self-development, which is why I aspire to gain new and exciting experiences in the IT industry.
+
+## Skills
+* JavaScript
+* TypeScript
+* HTML5, CSS3
+* Git, GitHub
+* REST API Basics
+* Figma Basics
+
+## EDUCATION
+#### **Donetsk National University, Faculty of Foreign Languages**
+
+- **Bachelor of Linguistics and Teaching**\
+  2017 – 2021
+
+### Courses:
+- The Modern JavaScript Tutorial on [javascript.info](https://javascript.info/)
+- The Rolling Scopes School Course ["JavaScript/Front-end. Stage 0"](https://rs.school/js-stage0/)
+- The Rolling Scopes School Course ["JavaScript/Front-end (EN)"](https://rs.school/js-en/) _(in progress)_
+
+## Code example
+#### Codewars [Binary Coded Decimal](https://www.codewars.com/kata/5521d84b95c172461d0000a4):
+```
+function toBcd(number){
+ let binaryNumber = Math.abs(number)
+    .toString()
+    .split("")
+    .map((n) => (n === "-" ? "-" : parseInt(n).toString(2).padStart(4, "0")))
+    .join(" ");
+  
+  return number < 0 ? "-" + binaryNumber : binaryNumber;
+}
+```
+## Experience
+[Codewars (4 kyu)](https://www.codewars.com/users/MariaKravchenko0)
+
+### My Projects:
+* _[Memory Game](https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/memory-game/)_
+* _[Image Gallery](https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/image-galery/)_
+* _[Shelter](https://mariakravchenko0-shelter.netlify.app/)_
+* _[Virtual Keyboard](https://mariakravchenko0.github.io/virtual-keyboard/)_
+
+## Languages
+* Russian, Ukrainian – native
+* English – C1
